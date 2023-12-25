@@ -1,0 +1,43 @@
+@import "/src/vars.css";
+
+.container{
+    background-color: rgba(12, 12, 12, 0.6);
+    padding: 30px ;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 20px;
+    z-index: 1;
+}
+.aboutItems{
+    display: flex;
+}
+.title{
+    font-family: var(--font-robot);
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 2%;
+}
+.content{
+    font-family: var(--font-robot);
+    color: var(--color-text);
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    align-content: space-between;
+    gap: 70px;
+    padding: 25px;
+}
+.content li{
+    display: flex;
+}
+.imgc{
+    width: 20vh;
+    margin-right: 20px;
+}
+.special img{
+    margin-left: 40px;
+}
+.special2 img{
+    margin-left: 70px;
+}

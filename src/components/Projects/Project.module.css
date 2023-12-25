@@ -1,0 +1,19 @@
+@import "/src/vars.css";
+
+.container{
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 25px;
+    font-family: var(--font-robot);
+    font-weight: 600;
+    padding: 45px;
+}
+.content{
+    display: flex;
+    height: 60vh;
+    width: 75vw;
+    gap: 40px;
+    align-content: space-between;
+    margin-top: 40px;
+
+}
